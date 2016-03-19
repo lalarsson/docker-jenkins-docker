@@ -5,3 +5,4 @@ RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 RUN curl -fsSL https://get.docker.com/gpg | apt-key add -
 RUN curl -fsSL https://get.docker.com/ | sh
 RUN usermod -aG docker jenkins
+USER jenkins
