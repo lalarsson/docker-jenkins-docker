@@ -8,4 +8,6 @@ please see [the official Jenkins Docker
 docs](https://github.com/jenkinsci/docker/tree/e7d56fa71d44ace1f1d8258ef216bba64f266cca)
 for further information.
 
+To run this image you need to run it with --privileged
+
 Feel free to use this as you will.
